@@ -1,8 +1,16 @@
 'use client'
 
+import { useSearchParams } from 'next/navigation'
 import { motion } from 'framer-motion'
 
 export default function WhatsAppButton() {
+  const searchParams = useSearchParams()
+  const isScreenshot = searchParams?.get('screenshot') === 'true'
+
+  if (isScreenshot) {
+    return null
+  }
+
   return (
     <motion.a
       href="https://wa.me/5511999999999"
