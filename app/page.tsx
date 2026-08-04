@@ -6,7 +6,6 @@ import Features from '@/components/home/Features'
 import Stats from '@/components/home/Stats'
 import About from '@/components/home/About'
 import Advantages from '@/components/home/Advantages'
-import WhatsAppButton from '@/components/home/WhatsAppButton'
 
 function HomeContent() {
   return (
@@ -16,7 +15,6 @@ function HomeContent() {
       <Stats />
       <About />
       <Advantages />
-      <WhatsAppButton />
     </>
   )
 }

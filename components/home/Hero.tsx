@@ -36,13 +36,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="absolute right-6 md:right-10 bottom-6 md:bottom-9 z-10">
-            <Link href="/roupas" className="inline-flex items-center gap-2.5 text-[11px] tracking-[0.14em] uppercase text-text hover:text-accent-bright transition-colors">
-              <span className="w-[34px] h-[34px] rounded-full border border-white/35 flex items-center justify-center hover:bg-accent-bright hover:border-accent-bright transition-all">
-                ↓
-              </span>
-            </Link>
-          </div>
+
         </div>
       </div>
     </section>
